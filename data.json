@@ -1,13 +1,14 @@
 {
   "main": {
-    "name": "Jhon Doe",
-    "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
+    "name": "Syifa Amara Dhestyani",
+    "shortDesc": "Computer Engineering graduate passionate about software engineering, mobile development, cybersecurity, DevSecOps, and data analytics.",
     "titles": [
-      "Frontend Development",
-      "Backend Development",
-      "App Development"
+      "Software Engineer",
+      "Data Analyst",
+      "Cybersecurity Enthusiast",
+      "Mobile Developer"
     ],
-    "heroImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "heroImage": "/images/profile.png",
     "techStackImages": [
       "https://img.icons8.com/color/144/000000/material-ui.png",
       "https://img.icons8.com/color/144/000000/html-5--v1.png",
