@@ -1,30 +1,37 @@
 'use client';
-import './globals.css'
-import { Poppins } from '@next/font/google'
-import { ThemeProvider } from 'next-themes'
+
+import './globals.css';
+import { Poppins } from '@next/font/google';
+import { ThemeProvider } from 'next-themes';
 import { Analytics } from '@vercel/analytics/react';
 
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700', '800'],
-  variable: '--font-poppins'
-})
+  variable: '--font-poppins',
+});
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head />
-      <ThemeProvider attribute='class' defaultTheme='light'>
-        <body className={`${poppins.className} font-poppins bg-gray-100/50 dark:bg-grey-900 text-black dark:text-white overflow-x-hidden`}>
-          {/* <body className='bg-gray-100/50 dark:bg-grey-900 text-black dark:text-white overflow-x-hidden'> */}
+
+      <body
+        className={`${poppins.className} font-poppins overflow-x-hidden bg-gray-100/50 text-black dark:bg-grey-900 dark:text-white`}
+      >
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+        >
           {children}
           <Analytics />
-        </body>
-      </ThemeProvider>
+        </ThemeProvider>
+      </body>
     </html>
-  )
+  );
 }
