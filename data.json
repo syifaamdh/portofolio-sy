@@ -18,7 +18,7 @@
   },
   "about": {
     "aboutImage": "/images/profile.png",
-    "aboutImageCaption": "< Turning ideas into solutions 🚀 />",
+    "aboutImageCaption": "Turning ideas into solutions🚀",
     "title": "Computer Engineering Graduate",
     "about": "Hello! I'm Syifa Amara Dhestyani, a Computer Engineering graduate from Telkom University with a passion for software engineering, data analytics, cybersecurity, and DevSecOps. Through internships and academic projects, I have developed experience in web and mobile application development, backend systems, machine learning, and automated security testing. I enjoy solving real-world problems through technology, continuously learning new tools, and building solutions that are efficient, scalable, and user-oriented. I'm currently seeking opportunities where I can contribute, grow professionally, and create meaningful impact through technology.",
     "callUrl": "",
@@ -59,6 +59,33 @@
     "category": "Programming"
   },
   {
+    "name": "SQL",
+    "image": "https://img.icons8.com/color/144/sql.png",
+    "category": "Programming"
+  },
+
+  {
+    "name": "HTML5",
+    "image": "https://img.icons8.com/color/144/html-5--v1.png",
+    "category": "Web Development"
+  },
+  {
+    "name": "CSS3",
+    "image": "https://img.icons8.com/color/144/css3.png",
+    "category": "Web Development"
+  },
+  {
+    "name": "CodeIgniter 4",
+    "image": "https://img.icons8.com/color/144/php.png",
+    "category": "Web Development"
+  },
+  {
+    "name": "REST API",
+    "image": "https://img.icons8.com/color/144/api-settings.png",
+    "category": "Web Development"
+  },
+
+  {
     "name": "Flutter",
     "image": "https://img.icons8.com/color/144/flutter.png",
     "category": "Mobile Development"
@@ -66,13 +93,31 @@
   {
     "name": "Firebase",
     "image": "https://img.icons8.com/color/144/firebase.png",
-    "category": "Backend & Database"
+    "category": "Mobile Development"
   },
+
   {
     "name": "MySQL",
     "image": "https://img.icons8.com/color/144/mysql-logo.png",
-    "category": "Backend & Database"
+    "category": "Database"
   },
+  {
+    "name": "SQLite",
+    "image": "https://img.icons8.com/color/144/sql.png",
+    "category": "Database"
+  },
+
+  {
+    "name": "SAST",
+    "image": "https://img.icons8.com/color/144/security-checked.png",
+    "category": "Cybersecurity"
+  },
+  {
+    "name": "DAST",
+    "image": "https://img.icons8.com/color/144/privacy.png",
+    "category": "Cybersecurity"
+  },
+
   {
     "name": "Docker",
     "image": "https://img.icons8.com/color/144/docker.png",
@@ -83,9 +128,15 @@
     "image": "https://img.icons8.com/color/144/jenkins.png",
     "category": "DevOps"
   },
+
   {
     "name": "Git",
     "image": "https://img.icons8.com/color/144/git.png",
+    "category": "Tools"
+  },
+  {
+    "name": "GitHub",
+    "image": "https://img.icons8.com/material-outlined/96/github.png",
     "category": "Tools"
   },
   {
@@ -96,7 +147,12 @@
   {
     "name": "Figma",
     "image": "https://img.icons8.com/color/144/figma--v1.png",
-    "category": "Design"
+    "category": "Tools"
+  },
+  {
+    "name": "Microsoft Office",
+    "image": "https://img.icons8.com/color/144/microsoft-office-2019.png",
+    "category": "Tools"
   }
 ],
  "projects": [
@@ -109,7 +165,7 @@
     "links": {
       "code": "",
       "video": "",
-      "visit": ""
+      "visit": "/projects/automated-mobile-sast-dast"
     }
   },
   {
@@ -120,7 +176,7 @@
     "links": {
       "code": "",
       "video": "",
-      "visit": ""
+      "visit": "/projects/jaga-grid"
     }
   },
   {
@@ -149,11 +205,11 @@
     "name": "Borcelle Beautyverse",
     "techstack": "Figma, UI/UX Design",
     "category": "UI/UX Design",
-    "image": "/images/projects/borcelle.png",
+    "image": "/images/projects/borcelle/cover.png",
     "links": {
       "code": "",
       "video": "",
-      "visit": ""
+      "visit": "/projects/borcelle-beautyverse"
     }
   }
 ],
