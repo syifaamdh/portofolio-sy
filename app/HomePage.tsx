@@ -7,9 +7,9 @@ import Projects from "@/components/projects/Projects";
 import Socials from "@/components/Socials";
 import Experiences from "@/components/experiences/Experiences";
 import Contact from "@/components/Contact";
-import CallToAction from "@/components/CallToAction";
 import Header from "./Header";
 import Footer from "./Footer";
+import Achievements from "@/components/achievements/Achievements";
 
 interface Props {
     data: data,
@@ -25,8 +25,8 @@ const HomePage = ({ data }: Props) => {
             <Skills skillData={data.skills} />
             <Projects projectsData={data.projects} />
             <Experiences experienceData={data.experiences} educationData={data.educations} />
+            <Achievements achievementData={data.achievements} />
             <Contact />
-            <CallToAction />
             <Footer socials={data.socials} name={data.main.name} />
         </>
     )

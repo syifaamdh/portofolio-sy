@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "Syifa Amara Dhestyani",
-    "shortDesc": "Computer Engineering graduate passionate about software engineering, mobile development, cybersecurity, DevSecOps, and data analytics.",
+    "shortDesc": "Computer Engineering graduate passionate about software engineering, mobile development, cybersecurity, DevSecOps, and Data Analytics.",
     "titles": [
       "Software Engineer",
       "Data Analyst",
@@ -10,10 +10,10 @@
     ],
     "heroImage": "/images/profile.png",
     "techStackImages": [
-      "https://img.icons8.com/color/144/000000/material-ui.png",
-      "https://img.icons8.com/color/144/000000/html-5--v1.png",
-      "https://img.icons8.com/color/144/000000/redux.png",
-      "https://img.icons8.com/color/144/000000/chakra-ui.png"
+      "https://img.icons8.com/color/144/flutter.png",
+      "https://img.icons8.com/color/144/python--v1.png",
+      "https://img.icons8.com/color/144/mysql-logo.png",
+      "https://img.icons8.com/color/144/docker.png"
     ]
   },
   "about": {
@@ -27,19 +27,15 @@
   "socials": [
     {
       "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/in/jhon-doe"
+      "link": "https://www.linkedin.com/in/syifaamdh"
     },
     {
       "icon": "FaGithub",
-      "link": "https://github.com/jhon-doe"
+      "link": "https://github.com/syifaamdh"
     },
     {
       "icon": "FaInstagram",
-      "link": "https://www.instagram.com/jhondoe"
-    },
-    {
-      "icon": "FaTwitter",
-      "link": "https://twitter.com/jhondoe"
+      "link": "https://www.instagram.com/syifaamdhy"
     }
   ],
 "skills": [
@@ -190,17 +186,17 @@
       "visit": ""
     }
   },
-  {
-    "name": "Ball Balancing System using PID Controller",
-    "techstack": "Arduino, C++, PID Controller",
-    "category": "Embedded Systems",
-    "image": "/images/projects/ballbalancing.png",
-    "links": {
-      "code": "",
-      "video": "",
-      "visit": ""
-    }
-  },
+{
+  "name": "Document Management System",
+  "techstack": "PHP, CodeIgniter 4, MySQL, REST API, JWT, RBAC",
+  "category": "Web Development",
+  "image": "/images/projects/dms/cover.png",
+  "links": {
+    "code": "",
+    "video": "",
+    "visit": "/projects/document-management-system"
+  }
+},
   {
     "name": "Borcelle Beautyverse",
     "techstack": "Figma, UI/UX Design",
@@ -213,43 +209,58 @@
     }
   }
 ],
-  "educations": [
-    {
-      "institute": "XYZ School | CBSE",
-      "degree": "HSC Science",
-      "duration": "2014 - 2016"
-    },
-    {
-      "institute": "XYZ College Of Engineering",
-      "degree": "B.Tech CSE",
-      "duration": "2016 - 2020",
-      "desc": [
-        "Pursuing IT Engineering course from ABC University",
-        "Worked on web application development using HTML, CSS, and JavaScript, designing a database system using SQL",
-        "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies."
-      ]
-    }
-  ],
-  "experiences": [
-    {
-      "company": "ABC Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2020 -2022",
-      "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
-      ]
-    },
-    {
-      "company": "XYZ Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2022 - present",
-      "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
-      ]
-    }
-  ]
+ "educations": [
+  {
+    "institute": "Telkom University",
+    "degree": "Bachelor of Computer Engineering",
+    "duration": "2022 - 2026",
+    "desc": [
+      "GPA: 3.80/4.00",
+      "Relevant Coursework: Machine Learning, Computer Networks, Cybersecurity, Database Systems, Operating Systems, Software Engineering.",
+      "Final Project: Automated Mobile SAST and DAST System."
+    ]
+  }
+],
+
+"experiences": [
+  {
+    "company": "PLN UP3 Makassar",
+    "position": "Mobile Developer Intern",
+    "duration": "Aug 2025 - Nov 2025",
+    "desc": [
+      "Developed JagaGrid, a Flutter-based mobile application for monitoring high-risk trees near PLN power transmission lines.",
+      "Integrated Firebase for real-time database, GPS location tracking, and field reporting.",
+      "Implemented GIS-based monitoring features and Telegram notification integration.",
+      "Skills: Flutter · Firebase · GPS · GIS · Telegram API"
+    ]
+  },
+  {
+    "company": "Yan CeLOE - Telkom University",
+    "position": "Backend & Database Developer Intern",
+    "duration": "Jun 2025 - Aug 2025",
+    "desc": [
+      "Developed backend systems and database architecture for a Document Management System using PHP, CodeIgniter 4, and MySQL.",
+      "Implemented CRUD operations, JWT Authentication, and Role-Based Access Control (RBAC).",
+      "Collaborated using Agile methodology and integrated backend services with frontend components.",
+      "Skills: PHP · CodeIgniter 4 · MySQL · JWT · RBAC · REST API"
+    ]
+  }
+],
+"achievements": [
+  {
+    "title": "2nd Place - Palo Alto Networks Ultimate Test Drive",
+    "organization": "Palo Alto Networks",
+    "date": "Oct 2025",
+    "description": "Won 2nd place in a cybersecurity hackathon focused on threat analysis and system defense.",
+    "image": "/images/achievements/paloalto.png"
+  },
+  {
+    "title": "Journal Publication (JOIN)",
+    "organization": "Jurnal Online Informatika",
+    "date": "2026",
+    "description": "Published research paper in Jurnal Online Informatika (JOIN).",
+    "image": "/images/achievements/join.png"
+  }
+]
+
 }

@@ -1,3 +1,4 @@
+import Achievements from "@/components/achievements/Achievements";
 type skill = {
     name: string,
     image: string,
@@ -61,8 +62,26 @@ type data = {
     skills: skill[],
     projects: project[],
     experiences: experience[],
-    educations: education[]
+    educations: education[],
+    achievements: Achievement[],
     socials: social[]
 }
 
-export type { data, main, about, skill, project, experience, education, social };
+export interface Achievement {
+  title: string;
+  organization: string;
+  date: string;
+  description: string;
+  image: string;
+}
+
+export type {
+  data,
+  main,
+  about,
+  skill,
+  project,
+  experience,
+  education,
+  social,
+};
