@@ -213,13 +213,18 @@ export default function AmaraLaundrySystem() {
 
 {/* Buttons */}
 {/* GitHub Button */}
+{/* GitHub */}
 <section className="mt-16">
+
+  <h2 className="text-3xl font-bold mb-6">
+    Source Code
+  </h2>
 
   <a
     href="https://github.com/syifaamdh/mylaundry.git"
     target="_blank"
     rel="noopener noreferrer"
-    className="px-6 py-3 rounded-xl bg-gray-900 text-white hover:bg-black transition-all"
+    className="inline-block px-6 py-3 rounded-xl bg-gray-900 text-white hover:bg-black transition-all"
   >
     GitHub
   </a>
@@ -227,7 +232,7 @@ export default function AmaraLaundrySystem() {
 </section>
 
 {/* Demo Videos */}
-<section className="mt-12">
+<section className="mt-16">
 
   <h2 className="text-3xl font-bold mb-6">
     Demo Videos
@@ -235,7 +240,47 @@ export default function AmaraLaundrySystem() {
 
   <div className="grid md:grid-cols-2 gap-8">
 
-    
+    <div className="border rounded-xl overflow-hidden shadow-sm">
+      <video
+        controls
+        className="w-full"
+        poster="/images/projects/laundry/operator-cover.png"
+      >
+        <source src="/videos/operator.mp4" type="video/mp4" />
+      </video>
+
+      <div className="p-5">
+        <h3 className="font-semibold text-lg">
+          Operator Portal Demo
+        </h3>
+
+        <p className="text-gray-500 mt-2">
+          Demonstrates administrator features including customer management,
+          laundry transactions, payments, and dashboard operations.
+        </p>
+      </div>
+    </div>
+
+    <div className="border rounded-xl overflow-hidden shadow-sm">
+      <video
+        controls
+        className="w-full"
+        poster="/images/projects/laundry/member-cover.png"
+      >
+        <source src="/videos/member.mp4" type="video/mp4" />
+      </video>
+
+      <div className="p-5">
+        <h3 className="font-semibold text-lg">
+          Member Portal Demo
+        </h3>
+
+        <p className="text-gray-500 mt-2">
+          Shows how members log in, view transaction history, and track laundry status.
+        </p>
+      </div>
+    </div>
+
   </div>
 
 </section>
