@@ -1,135 +1,149 @@
-![Portfolio](https://res.cloudinary.com/lifecodes/image/upload/v1678684352/Portfolio/l7b1gz61rh3hgoz5qzta.png)
+![Portfolio](./public/images/profile.png)
 
 <div align="center">
-  &middot;
-  <i>Next Portfolio built in Next.js + TypeScript + Tailwind CSS + Firebase</i>
-  &middot;
-  <br/>
-  <br/>
 
-  <p align="center">
-    <img src="https://img.shields.io/github/forks/jigar-sable/next-portfolio?style=for-the-badge" />
-  <a href="https://jigarsable.vercel.app">
-    <img src="https://img.shields.io/static/v1?label=&message=View%20Demo&style=for-the-badge&color=black&logo=vercel" />
+# 🌐 Syifa Amara Dhestyani Portfolio
+
+<i>
+Computer Engineering Graduate | Software Engineer | Mobile Developer | Cybersecurity & DevSecOps Enthusiast
+</i>
+
+<br/>
+
+<p align="center">
+  <a href="https://your-portfolio.vercel.app">
+    <img src="https://img.shields.io/badge/Live-Portfolio-6C63FF?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
+
+  <a href="https://github.com/yourusername/portfolio">
+    <img src="https://img.shields.io/github/stars/yourusername/portfolio?style=for-the-badge" />
+  </a>
+
 </p>
 
 <p align="center">
-  <a href="#introduction-">Introduction</a> •
-  <a href="#tech-stack-%EF%B8%8F">Tech Stack</a> •
-  <a href="#development-">Development</a> •
-    <a href="#deployment-">Deployment</a> •
-  <a href="#license-">License</a>
+  <a href="#about">About</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#featured-projects">Projects</a> •
+  <a href="#run-locally">Run Locally</a> •
+  <a href="#contact">Contact</a>
 </p>
 
 </div>
 
-## Introduction 👋
+---
 
-Next Portfolio is built using Next.js and Tailwind CSS for a modern design and rapid development. TypeScript is utilized for code clarity and safety. Additionally, Firebase is being integrated for backend services such as realtime-database. The result is a dynamic and functional portfolio website that showcases the developer's skills and experience.
+# About
 
-## Tech Stack 🛠️
+Welcome to my personal portfolio website.
 
-- [Next.js](https://nextjs.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Firebase](https://firebase.google.com)
-- [SendGrid](https://sendgrid.com)
-- [Framer Motion](https://www.framer.com/motion)
+This portfolio showcases my projects, technical skills, internship experiences, research activities, publications, and achievements throughout my academic journey as a Computer Engineering graduate from Telkom University.
 
-<!-- ## Tech Stack 🛠️
+My interests include:
 
- <p>
- <a href="https://nextjs.org">
-    <img src="https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-    </a>
-  <a href="https://tailwindcss.com">
-    <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" />
-  </a>
-  <a href="https://www.typescriptlang.org">
-    <img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white" />
-  </a>
-   <a href="https://firebase.google.com">
-    <img src="https://img.shields.io/badge/Firebase-FFCA28.svg?style=for-the-badge&logo=Firebase&logoColor=black" />
-  </a>
-  <a href="https://www.framer.com/motion">
-    <img src="https://img.shields.io/badge/Framer-0055FF.svg?style=for-the-badge&logo=Framer&logoColor=white" />
-  </a>
-</p> -->
+- Software Engineering
+- Mobile Development
+- Backend Development
+- Cybersecurity
+- DevSecOps
+- Data Analytics
 
-## Development 💻
+---
 
-Here are the steps to run the portfolio locally.
+# Tech Stack
 
-1. Fork [this](https://github.com/jigar-sable/next-portfolio) repository.
+### Frontend
 
-2. Clone your forked copy of the repo
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
 
-   ```bash
-   git clone https://github.com/<your-github-username>/next-portfolio.git
-   ```
+### Backend
 
-3. Install dependencies
+- Firebase Realtime Database
+- SendGrid
 
-   ```bash
-   npm i
-   ```
+### Deployment
 
-4. Create a Firebase project and select the web app
+- Vercel
 
-5. Create an `.env.local` file in the root directory, and add the following variables with your firebase config:
-   ```
-   SENDGRID_API_KEY=XXXXXXXX
-   NEXT_PUBLIC_FIREBASE_DATABASE_URL=XXXXXXXXXX
-   MAIL_FROM=YOUR_MAIL_ID
-   MAIL_TO=YOUR_MAIL_ID
-   ```
-   <!-- write text to tell user to get sendgrid keys from dashboard and add here -->
+---
 
-> **Note**: `SENDGRID_API_KEY` - Create an API key from "Settings" -> "API Keys" with "Restricted Access" to only "Mail Send"
+# Featured Projects
 
-1. Update the sample [data.json](https://github.com/jigar-sable/next-portfolio/blob/main/data.json) provided, with your data or directly import the same and edit using firebase later. (For storing images you can use [Cloudinary](https://cloudinary.com) or [Firebase Storage](https://firebase.google.com/docs/storage))
+### 🔐 Automated Mobile SAST & DAST System
+Automated security testing pipeline for Android applications using MobSF, OWASP ZAP, Jenkins, Docker, and Android Emulator.
 
-2. Import json data
+### ⚡ JAGA GRID
+Mobile application developed during internship at PLN UP3 Makassar for monitoring vegetation around electrical power lines using Flutter and Firebase.
 
-   - Go to [Firebase Console](https://console.firebase.google.com) and select your project
-   - Go to "Database" -> "Realtime Database" -> "Import JSON" and import the [data.json](https://github.com/jigar-sable/next-portfolio/blob/main/data.json) file
+### 📂 Document Management System (DMS)
+Backend web application developed using CodeIgniter 4 and MySQL during internship at Yan CeLOE, featuring document management, authentication, RBAC, and approval workflows.
 
-3. Run the project
+### 🧺 Amara Laundry Management System
+Laundry management system developed using PHP and MySQL with separate Operator and Member portals.
 
-   ```bash
-   npm run dev
-   ```
+### 🎨 Borcelle Beautyverse
+Modern beauty shopping mobile UI/UX designed using Figma with interactive prototype.
 
-## Deployment 🚀
+---
 
-1. Create a Vercel account and select "Import Project"
+# Run Locally
 
-2. Select the forked repository and deploy
+Clone the project
 
-3. Add the following environment variables in the Vercel dashboard:
-   ```
-   SENDGRID_API_KEY=XXXXXXXX
-   NEXT_PUBLIC_FIREBASE_DATABASE_URL=XXXXXXXXXX
-   MAIL_FROM=YOUR_MAIL_ID
-   MAIL_TO=YOUR_MAIL_ID
-   ```
-4. Hurray! You successfully deployed the portfolio🥳
+```bash
+git clone https://github.com/yourusername/portfolio.git
+```
 
-## License 📄
+Go to the project directory
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/jigar-sable/next-portfolio/blob/main/LICENSE.md)
+```bash
+cd portfolio
+```
 
-<!-- ## Contact 📬
+Install dependencies
 
-If you want to contact me, you can reach me through below handles.
+```bash
+npm install
+```
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sable)
+Create a `.env.local` file
 
-## Support 🙌
+```env
+SENDGRID_API_KEY=YOUR_API_KEY
+NEXT_PUBLIC_FIREBASE_DATABASE_URL=YOUR_DATABASE_URL
+MAIL_FROM=YOUR_EMAIL
+MAIL_TO=YOUR_EMAIL
+```
 
-If you like this portfolio, please consider giving it a ⭐ on GitHub and sharing it with your friends via social media.
+Run development server
 
-<div align="center">
-  <h3> Show some &nbsp;❤️&nbsp; by starring this repo! </h3>
-</div> -->
+```bash
+npm run dev
+```
+
+Open
+
+```
+http://localhost:3000
+```
+
+---
+
+# Contact
+
+📧 Email : your-email@gmail.com
+
+💼 LinkedIn : https://linkedin.com/in/your-linkedin
+
+🐙 GitHub : https://github.com/yourusername
+
+🌐 Portfolio : https://your-portfolio.vercel.app
+
+---
+
+## License
+
+This project is created for my personal portfolio and is available for viewing and inspiration.

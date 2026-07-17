@@ -179,11 +179,11 @@
     "name": "Laundry Management Information System",
     "techstack": "PHP, MySQL, HTML, CSS, Bootstrap, JavaScript",
     "category": "Web Development",
-    "image": "/images/projects/laundry.png",
+    "image": "/images/projects/laundry/cover.png",
     "links": {
       "code": "",
       "video": "",
-      "visit": ""
+      "visit": "/projects/amara-laundry"
     }
   },
 {

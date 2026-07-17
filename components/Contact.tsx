@@ -80,7 +80,7 @@ Best regards,`
       {/* Image */}
       <div className="w-full md:w-1/2 h-56 md:h-64 lg:w-96 mx-auto rounded-2xl overflow-hidden bg-white/10 shadow-xl">
         <Image
-          src="/images/profile.png"
+          src="/images/profc.png"
           alt="Syifa Amara Dhestyani"
           width={1000}
           height={1000}
