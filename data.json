@@ -166,6 +166,7 @@
   },
   {
     "name": "JAGA GRID - Tree Monitoring Application",
+    "slug": "jaga-grid",
     "techstack": "Flutter, Dart, Firebase, Google Maps",
     "category": "Mobile Development",
     "image": "/images/projects/jagagrid/cover.png",
@@ -177,6 +178,7 @@
   },
   {
     "name": "Laundry Management Information System",
+    "slug": "amara-laundry",
     "techstack": "PHP, MySQL, HTML, CSS, Bootstrap, JavaScript",
     "category": "Web Development",
     "image": "/images/projects/laundry/cover.png",
@@ -188,6 +190,7 @@
   },
 {
   "name": "Document Management System",
+  "slug": "document-management-system",
   "techstack": "PHP, CodeIgniter 4, MySQL, REST API, JWT, RBAC",
   "category": "Web Development",
   "image": "/images/projects/dms/cover.png",
@@ -199,6 +202,7 @@
 },
   {
     "name": "Borcelle Beautyverse",
+    "slug": "borcelle-beautyverse",
     "techstack": "Figma, UI/UX Design",
     "category": "UI/UX Design",
     "image": "/images/projects/borcelle/cover.png",
