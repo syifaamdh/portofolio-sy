@@ -106,23 +106,23 @@
   {
     "name": "SAST",
     "image": "https://img.icons8.com/color/144/security-checked.png",
-    "category": "Cybersecurity"
+    "category": "Cybersecurity & DevSecOps"
   },
   {
     "name": "DAST",
     "image": "https://img.icons8.com/color/144/privacy.png",
-    "category": "Cybersecurity"
+    "category": "Cybersecurity & DevSecOps"
   },
 
   {
     "name": "Docker",
     "image": "https://img.icons8.com/color/144/docker.png",
-    "category": "DevOps"
+    "category": "Cybersecurity & DevSecOps"
   },
   {
     "name": "Jenkins",
     "image": "https://img.icons8.com/color/144/jenkins.png",
-    "category": "DevOps"
+    "category": "Cybersecurity & DevSecOps"
   },
 
   {
@@ -138,8 +138,13 @@
   {
     "name": "Linux",
     "image": "https://img.icons8.com/color/144/linux.png",
-    "category": "Tools"
+    "category": "Cybersecurity & DevSecOps"
   },
+{
+  "name": "OWASP Top 10",
+  "image": "/images/owasp1.png",
+  "category": "Cybersecurity & DevSecOps"
+},
   {
     "name": "Figma",
     "image": "https://img.icons8.com/color/144/figma--v1.png",
